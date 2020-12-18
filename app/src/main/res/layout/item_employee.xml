@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/img_employee"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@mipmap/ic_launcher_round"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp">
+
+        <TextView
+            android:id="@+id/name_employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Employee Names"/>
+
+        <TextView
+            android:id="@+id/dept_employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employee Department"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/mail_employee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employee E-mail"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/district_employee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employee District"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/pass_employee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employee Password"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
